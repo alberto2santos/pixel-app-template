@@ -1,9 +1,9 @@
 {
-  "name": "YOURAPPNAME",
-  "vendor": "vtex",
+  "name": "inngage-api",
+  "vendor": "tfchmj",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Inngage Pixel",
+  "description": "App para integrar o script da Inngage no head da loja",
   "billingOptions": {
     "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
     "support": {
@@ -22,10 +22,11 @@
     "docs": "0.x"
   },
   "dependencies": {
-    "vtex.pixel-interfaces": "1.x"
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.apps-graphql": "3.x"
   },
   "settingsSchema": {
-    "title": "YOUR APP NAME",
+    "title": "Inngage Push",
     "type": "object",
     "properties": {
       "gtmId": {

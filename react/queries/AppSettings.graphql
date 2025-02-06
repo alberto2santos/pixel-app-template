@@ -1,0 +1,6 @@
+query getSettings {
+  publicSettingsForApp(app: "tfchmj.theme", version: "1.x")
+    @context(provider: "vtex.apps-graphql") {
+    message
+  }
+}
